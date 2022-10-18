@@ -100,39 +100,77 @@
 		font-weight: 300
 		font-size: 50px
 	&__item
-		margin-right: 40px
-	&__item:last-child
-		margin-right: 0
+		width: 200px
+		padding: 10px
+		margin-right: 30px
+		border-radius: 16px
+		background: #ffa825
+		box-shadow:  8px 8px 25px #de9220, -8px -8px 25px #ffbe2a
+		&:last-child
+			margin-right: 0
 	
-@media (max-width: 870px) 
+@media (max-width: 1050px) 
 	.timer
 		font-size: 60px
 		&__text
 			font-size: 40px
-		&__item
+		&__item		
+			width: 180px
+			padding: 5px
 			margin-right: 20px
-		&__item:last-child
-			margin-right: 0
+			border-radius: 16px
+			background: #ffa825
+			box-shadow:  8px 8px 25px #de9220, -8px -8px 25px #ffbe2a
+			&:last-child
+				margin-right: 0
 
-@media (max-width: 670px) 
+
+@media (max-width: 830px) 
 	.timer
 		font-size: 45px
 		&__text
 			font-size: 30px
-		&__item
+		&__item		
+			width: 135px
+			padding: 5px
 			margin-right: 20px
-		&__item:last-child
-			margin-right: 0
+			border-radius: 16px
+			background: #ffa825
+			box-shadow:    7px 7px 14px #de9220, -7px -7px 14px #ffbe2a
+			&:last-child
+				margin-right: 0
 
-@media (max-width: 500px) 
+
+@media (max-width: 640px) 
 	.timer
 		font-size: 30px
 		&__text
 			font-size: 20px
 		&__item
-			margin-right: 10px
-		&__item:last-child
-			margin-right: 0
+			width: 135px
+			padding: 5px
+			margin-right: 20px
+			border-radius: 16px
+			background: #ffa825
+			box-shadow:    7px 7px 14px #de9220, -7px -7px 14px #ffbe2a
+			&:last-child
+				margin-right: 0
+
+@media (max-width: 530px) 
+	.timer
+		font-size: 20px
+		&__text
+			font-size: 12px
+		&__item
+			width: 50px
+			padding: 5px
+			margin-right: 20px
+			border-radius: 8px
+			background: #ffa825
+			box-shadow: 5px 5px 10px #de9220, -5px -5px 10px #ffbe2a
+			&:last-child
+				margin-right: 0
+
 	
 
 </style>

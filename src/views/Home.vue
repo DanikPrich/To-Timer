@@ -62,29 +62,38 @@ section
   padding: 300px 0
 
 .container 
-  max-width: 800px
+  max-width: 1000px
   margin: auto
 
-@media (max-width: 870px) 
+@media (max-width: 1050px) 
   .container
-    max-width: 600px
+    max-width: 800px
   .timer-section__input
     font-size: 25px
   section
     padding: 250px 0
 
-@media (max-width: 670px) 
+@media (max-width: 830px) 
   .container
-    max-width: 370px
+    max-width: 600px
   .timer-section__input
     font-size: 18px
     margin-bottom: 30px
   section
     padding: 200px 0
 
-@media (max-width: 500px) 
+@media (max-width: 640px) 
   .container
-    max-width: 350px
+    max-width: 500px
+  .timer-section__input
+    font-size: 14px
+    margin-bottom: 20px
+  section
+    padding: 100px 0
+
+@media (max-width: 530px) 
+  .container
+    max-width: 300px
   .timer-section__input
     font-size: 14px
     margin-bottom: 20px
